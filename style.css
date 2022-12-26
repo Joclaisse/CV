@@ -1,0 +1,221 @@
+body {
+    /* background-color: blue; */
+    color: white;
+    margin: 0 auto;
+}
+tr p {color: white;}
+.left{
+    width: 37%;
+    height: 57.52rem;
+    background-color: black;
+    margin-top: -1.54rem;
+    padding: 18rem 0 0 5rem;
+    float: left;
+}
+
+.left1{
+    width: 500px;
+    /* height: 50rem; */
+    margin-top: 2.08rem;
+    padding: 18rem 0 0 5rem;
+}
+section{
+    width: 57%;
+    background-color: white;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 16.5rem;
+    
+    
+}
+header{
+    background-color: rgb(0, 117, 255);
+    padding: 0 30px;
+    margin: 20px 0 0 5rem;
+    border: 3px white solid;
+    box-shadow: 0 2px 8px 7px black;
+    position: absolute;
+    top: 1px;
+    width: 82.5%;
+    
+}
+header img{
+    width : 150px;
+    height : 150px;
+    border: none;
+    -moz-border-radius : 75px;
+    -webkit-border-radius : 75px;
+    border-radius : 75px;
+}
+.container{
+    margin: 0 auto;
+}
+.desc p{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+hr{
+    border-top-style: dashed;
+    height: 2px;
+    background-color: rgb(0, 117, 255);
+}
+h1 {
+    color: white;
+    margin: 0 0 -10px 1rem;
+}
+h2{
+    color: white;
+    background-color: rgb(0, 117, 255);
+    width: 20%;
+    height: 2.2rem;
+    text-align: left;
+    margin-left: 1rem;
+    padding: 0.5rem 0 0 0.3rem;
+    border: 2px black solid groove;
+    box-shadow: 5px 5px 5px black;
+}
+p {
+    Margin-left: 1rem;
+    color: black;
+}
+
+h3{
+    color: rgb(0, 117, 255);
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    border-bottom: 3px white solid;
+    width: 23rem;
+}
+.table1{
+    margin: 0 auto;
+    border: 2px black solid groove;
+    box-shadow: 5px 5px 5px black;
+    color: white;
+    background-color: rgb(0, 117, 255);
+    text-align: center;
+    width: 100%;
+    margin-left: 1rem;
+    
+}
+thead{
+    border: 1px black solid;
+}
+/* .table1 td{
+    margin-top: -10px;
+} */
+
+
+label{
+    text-align: center;
+    padding: 19px 0;  
+}
+ul {
+    padding:0 19px 0 19px;
+    font-size: 1.1rem;
+    margin-left:-1rem;
+    font-size: 20px;
+}
+span, ol{
+    margin-top: -2rem;
+}
+progress{margin: 0.2rem 0 0.5rem 0;}
+
+.linkAll{
+    text-align: center;
+}
+.linkAll a{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+a{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+    width: 23rem;
+    margin-top: 8rem;
+}
+a:hover{color: orange; font-size: 28px;}
+
+/* CONTACTS */
+.allBody{background: rgb(0, 117, 255);}
+h4{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    padding-top: 15px;
+}
+/* #bar{
+    border-top-style: dashed;
+    height: 2px;
+    background-color: rgb(0, 117, 255);
+    margin-top: -2rem;
+    margin-left: 13.1rem;
+    width: 40%;
+} */
+.call{margin-top: -1rem;}
+.contient{
+    background: black;
+    width: 50%;
+    margin: 0 auto;
+    padding:0 15px 15px 15px;
+    box-shadow: 5px 5px 50px 50px white;
+}
+.contact p{
+    color: white;
+    font-size: 20px;
+}
+
+textarea, input{
+    border-color: rgb(0, 117, 255);
+    border-style: none;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-style: inset;
+    background: none;
+    color: white;
+}
+textarea{
+    width: 100%;
+    margin: 0 0 0.7rem 0;
+    overflow: auto;
+}
+textarea:hover, input:hover, #btn:hover{
+    border-color: rgb(0, 117, 255);
+    box-shadow: 2px 2px 12px rgb(0, 117, 255);
+
+    border: none;
+}
+textarea:focus, input:focus{outline: none;}
+#mail:focus{font-style: italic;}
+input{
+    height: 2rem;
+    width: 100%;
+    margin: 0 0 0.7rem 0;
+    font-style: normal;
+}
+
+#btn{
+    background: rgb(0, 117, 255);
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 2px 2px 2px rgb(0, 117, 255);
+    text-align: center;
+}
+#btn:hover{
+    background: rgb(0, 117, 255);
+    border-color: white;
+    color: white;
+    box-shadow: 2px 2px 12px white;
+}
+form label {
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
